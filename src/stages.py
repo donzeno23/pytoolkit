@@ -2,8 +2,8 @@
 
 import random
 from typing import Any, Callable
-from metrics import MetricsCalculator
-from graph import ResponseTimeGrapher
+from pytoolkit.src.api.metrics import MetricsCalculator
+from pytoolkit.src.api.graph import ResponseTimeGrapher
 
 class Stage:
     def __init__(self, name: str, action: Callable[..., Any]):
