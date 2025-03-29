@@ -1,1 +1,1 @@
-python test_plan_performance.py
+python test_plan.py
